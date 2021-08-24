@@ -6,5 +6,3 @@ author: "Hobart Phillips"
 tags: ["index"]
 emoji: -pcvector
 ---
-
-{{< terms-cloud terms="tags" >}}
