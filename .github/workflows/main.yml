@@ -34,12 +34,12 @@ jobs:
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
-        if: ${{ github.ref == 'refs/heads/main' }}
+        if: ${{ github.ref == 'refs/heads/mas' }}
         with:
           personal_token: ${{ secrets.TOKEN }}
           external_repository: MelonKony/beta.millmint.net
           user_name: melonkony
           user_email: melonkony@icloud.com
           publish_dir: ./
-          publish_branch: live
+          publish_branch: master
           cname: beta.millmint.net
